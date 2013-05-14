@@ -1,0 +1,1 @@
+<a href="#" onclick="window.open('/audits/{{audit_id}}/email.html#html','emailWindow','toolbar=0, menubar=0, width=620, height=594, location=0, status=0, directories=0, scrollbars=1'); return false;" class="btn btn-large"><i class="icon-envelope"></i><strong> {{t "show_email"}}</strong></a>
