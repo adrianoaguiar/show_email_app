@@ -5,13 +5,13 @@
       fetchTicket: function(){
         return {
           url: '/api/v2/tickets/'+this.ticket().id()+'.json'
-        }
+        };
       },
 
       fetchTicketAudits: function(){
         return {
           url: '/api/v2/tickets/'+this.ticket().id()+'/audits.json'
-        }
+        };
       }
     },
 
@@ -37,7 +37,7 @@
     fetchTicketAuditsDone: function(data){
       this.switchTo('button', {
         audit_id: data.audits[0].id
-      })
+      });
     }
   };
 
