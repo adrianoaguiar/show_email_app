@@ -4,13 +4,15 @@
     requests: {
       fetchTicket: function(){
         return {
-          url: '/api/v2/tickets/'+this.ticket().id()+'.json'
+          url: '/api/v2/tickets/'+this.ticket().id()+'.json',
+          proxy_v2: true
         };
       },
 
       fetchTicketAudits: function(){
         return {
-          url: '/api/v2/tickets/'+this.ticket().id()+'/audits.json'
+          url: '/api/v2/tickets/'+this.ticket().id()+'/audits.json',
+          proxy_v2: true
         };
       }
     },
