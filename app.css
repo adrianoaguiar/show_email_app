@@ -1,3 +1,7 @@
 section[data-main] {
   text-align:center;
 }
+
+.spinner {
+  display:none;
+}

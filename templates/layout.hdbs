@@ -1,2 +1,2 @@
 <section data-main/>
-
+<img src="{{assetURL "dot-spinner.gif"}}" class="spinner pull-right">
