@@ -42,7 +42,7 @@
 
     replaceRequester: function() {
       this.$('.spinner').show();
-      this.ajax('fetchOriginalEmail', this.$('input[name=audit_id]').val())
+      this.ajax('fetchOriginalEmail', this.$('input[name=audit_id]').val());
     },
 
     fetchTicketDone: function(data){
@@ -61,7 +61,7 @@
         res = re.exec(data);
 
       if (res)
-        this.ticket().requester({ name: res[1], email: res[2]})
+        this.ticket().requester({ name: res[1], email: res[2]});
       this.$('.spinner').hide();
     }
   };
